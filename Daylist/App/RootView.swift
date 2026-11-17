@@ -1,5 +1,6 @@
 import SwiftUI
 
+/// Switches between the onboarding and main flows with a dissolve.
 struct RootView: View {
     @Environment(AppRouter.self) private var router
 

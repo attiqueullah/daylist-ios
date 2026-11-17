@@ -1,6 +1,6 @@
 import Observation
 
-/// Owns all navigation state, so screens call intent methods instead of holding paths.
+/// Owns all navigation state. View models call its intent methods; only flow views read its state.
 ///
 /// One `NavigationStack` per flow, each bound to its own typed path. Transitions follow
 /// `claude/navigation-spec.md`: pushes for drill-ins, a sheet for Settings and New list,

@@ -1,0 +1,306 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "common.cancel" : {
+      "comment" : "Button that dismisses a sheet without saving",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "common.done" : {
+      "comment" : "Button that closes a sheet or modal",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Done"
+          }
+        }
+      }
+    },
+    "emailSignIn.signIn" : {
+      "comment" : "Primary button that signs in with email and password",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sign in"
+          }
+        }
+      }
+    },
+    "emailSignIn.title" : {
+      "comment" : "Title of the email sign-in screen (placeholder until stage 5)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Email Sign In"
+          }
+        }
+      }
+    },
+    "home.mockDataSet" : {
+      "comment" : "Developer note on Home showing which mock data is loaded. Argument: default or empty",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Mock data set: %@"
+          }
+        }
+      }
+    },
+    "home.openSmartList" : {
+      "comment" : "Button that opens a smart list from Home. Argument: smart list name, e.g. My Day",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Open %@"
+          }
+        }
+      }
+    },
+    "home.settings" : {
+      "comment" : "Button that opens Settings from Home",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Settings"
+          }
+        }
+      }
+    },
+    "home.title" : {
+      "comment" : "Title of the Home screen (placeholder until stage 6)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Home"
+          }
+        }
+      }
+    },
+    "newList.title" : {
+      "comment" : "Title of the screen that creates a list",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "New list"
+          }
+        }
+      }
+    },
+    "placeholder.comesInM2" : {
+      "comment" : "Developer note on unfinished screens",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This screen comes in milestone 2."
+          }
+        }
+      }
+    },
+    "placeholder.comesInM3" : {
+      "comment" : "Developer note on unfinished screens",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This screen comes in milestone 3."
+          }
+        }
+      }
+    },
+    "placeholder.laterStage" : {
+      "comment" : "Developer note on unfinished screens",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Placeholder, built in a later stage."
+          }
+        }
+      }
+    },
+    "settings.signOut" : {
+      "comment" : "Button in Settings that signs the user out",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sign out"
+          }
+        }
+      }
+    },
+    "settings.title" : {
+      "comment" : "Title of the Settings screen",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Settings"
+          }
+        }
+      }
+    },
+    "signIn.continueWithEmail" : {
+      "comment" : "Button that opens email sign-in",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Continue with email"
+          }
+        }
+      }
+    },
+    "signIn.continueWithoutAccount" : {
+      "comment" : "Button that skips sign-in and keeps lists on this device",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Continue without an account"
+          }
+        }
+      }
+    },
+    "signIn.title" : {
+      "comment" : "Title of the sign-in screen (placeholder until stage 5)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sign In"
+          }
+        }
+      }
+    },
+    "smartList.assignedToMe" : {
+      "comment" : "Smart list: tasks other members assigned to the user",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Assigned to me"
+          }
+        }
+      }
+    },
+    "smartList.completed" : {
+      "comment" : "Smart list: finished tasks",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Completed"
+          }
+        }
+      }
+    },
+    "smartList.important" : {
+      "comment" : "Smart list: starred tasks",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Important"
+          }
+        }
+      }
+    },
+    "smartList.myDay" : {
+      "comment" : "Smart list: tasks the user picked for today",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "My Day"
+          }
+        }
+      }
+    },
+    "smartList.planned" : {
+      "comment" : "Smart list: tasks with a due date or reminder",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Planned"
+          }
+        }
+      }
+    },
+    "taskList.title" : {
+      "comment" : "Generic title for a task list screen (placeholder until M2)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "List"
+          }
+        }
+      }
+    },
+    "welcome.getStarted" : {
+      "comment" : "Primary button on the Welcome screen",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Get started"
+          }
+        }
+      }
+    },
+    "welcome.title" : {
+      "comment" : "Title of the first onboarding screen (placeholder until stage 5)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Welcome"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

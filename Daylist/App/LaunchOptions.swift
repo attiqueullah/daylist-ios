@@ -31,8 +31,8 @@ nonisolated struct LaunchOptions: Equatable, Sendable {
         self.skipOnboarding = value(Keys.skipOnboarding).map(Self.isTrue) ?? false
     }
 
-    static var current: LaunchOptions {
-        LaunchOptions { UserDefaults.standard.string(forKey: $0) }
+    static var current: Self {
+        Self { UserDefaults.standard.string(forKey: $0) }
     }
 
     private static func isTrue(_ raw: String) -> Bool {

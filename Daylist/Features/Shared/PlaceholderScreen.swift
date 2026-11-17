@@ -2,8 +2,8 @@ import SwiftUI
 
 /// Stand-in for screens that a later stage or milestone builds. Removed once M3 is done.
 struct PlaceholderScreen: View {
-    let title: String
-    var note: String = "Placeholder, built in a later stage."
+    let title: LocalizedStringResource
+    var note: LocalizedStringResource = L10n.Placeholder.laterStage
     var actions: [PlaceholderAction] = []
 
     var body: some View {
@@ -32,10 +32,10 @@ struct PlaceholderScreen: View {
 
 struct PlaceholderAction: Identifiable {
     let id = UUID()
-    let title: String
+    let title: LocalizedStringResource
     let perform: () -> Void
 
-    init(_ title: String, perform: @escaping () -> Void) {
+    init(_ title: LocalizedStringResource, perform: @escaping () -> Void) {
         self.title = title
         self.perform = perform
     }

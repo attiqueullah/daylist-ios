@@ -34,13 +34,13 @@ nonisolated enum SmartListKind: String, CaseIterable, Hashable, Sendable {
     case assignedToMe
     case completed
 
-    var title: String {
+    var title: LocalizedStringResource {
         switch self {
-        case .myDay: "My Day"
-        case .important: "Important"
-        case .planned: "Planned"
-        case .assignedToMe: "Assigned to me"
-        case .completed: "Completed"
+        case .myDay: L10n.SmartList.myDay
+        case .important: L10n.SmartList.important
+        case .planned: L10n.SmartList.planned
+        case .assignedToMe: L10n.SmartList.assignedToMe
+        case .completed: L10n.SmartList.completed
         }
     }
 }
