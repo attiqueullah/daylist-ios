@@ -277,6 +277,102 @@
         }
       }
     },
+    "theme.berry" : {
+      "comment" : "Name of a colour theme for lists (a deep pink)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Berry"
+          }
+        }
+      }
+    },
+    "theme.clay" : {
+      "comment" : "Name of a colour theme for lists (a brownish orange)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Clay"
+          }
+        }
+      }
+    },
+    "theme.coral" : {
+      "comment" : "Name of a colour theme for lists (a reddish orange)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Coral"
+          }
+        }
+      }
+    },
+    "theme.lagoon" : {
+      "comment" : "Name of a colour theme for lists (a blue-green)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Lagoon"
+          }
+        }
+      }
+    },
+    "theme.marigold" : {
+      "comment" : "Name of a colour theme for lists (a warm orange-yellow)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Marigold"
+          }
+        }
+      }
+    },
+    "theme.moss" : {
+      "comment" : "Name of a colour theme for lists (a muted green)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Moss"
+          }
+        }
+      }
+    },
+    "theme.sky" : {
+      "comment" : "Name of a colour theme for lists (a clear blue)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sky"
+          }
+        }
+      }
+    },
+    "theme.violet" : {
+      "comment" : "Name of a colour theme for lists",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Violet"
+          }
+        }
+      }
+    },
     "welcome.getStarted" : {
       "comment" : "Primary button on the Welcome screen",
       "extractionState" : "extracted_with_value",

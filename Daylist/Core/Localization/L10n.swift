@@ -150,6 +150,50 @@ nonisolated enum L10n {
         )
     }
 
+    /// Names of the eight list themes (`AppTheme`).
+    nonisolated enum Theme {
+        static let violet = LocalizedStringResource(
+            "theme.violet",
+            defaultValue: "Violet",
+            comment: "Name of a colour theme for lists"
+        )
+        static let marigold = LocalizedStringResource(
+            "theme.marigold",
+            defaultValue: "Marigold",
+            comment: "Name of a colour theme for lists (a warm orange-yellow)"
+        )
+        static let coral = LocalizedStringResource(
+            "theme.coral",
+            defaultValue: "Coral",
+            comment: "Name of a colour theme for lists (a reddish orange)"
+        )
+        static let moss = LocalizedStringResource(
+            "theme.moss",
+            defaultValue: "Moss",
+            comment: "Name of a colour theme for lists (a muted green)"
+        )
+        static let lagoon = LocalizedStringResource(
+            "theme.lagoon",
+            defaultValue: "Lagoon",
+            comment: "Name of a colour theme for lists (a blue-green)"
+        )
+        static let berry = LocalizedStringResource(
+            "theme.berry",
+            defaultValue: "Berry",
+            comment: "Name of a colour theme for lists (a deep pink)"
+        )
+        static let sky = LocalizedStringResource(
+            "theme.sky",
+            defaultValue: "Sky",
+            comment: "Name of a colour theme for lists (a clear blue)"
+        )
+        static let clay = LocalizedStringResource(
+            "theme.clay",
+            defaultValue: "Clay",
+            comment: "Name of a colour theme for lists (a brownish orange)"
+        )
+    }
+
     /// Notes shown on screens that a later stage or milestone replaces. Removed with `PlaceholderScreen`.
     nonisolated enum Placeholder {
         static let laterStage = LocalizedStringResource(

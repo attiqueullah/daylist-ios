@@ -4,6 +4,10 @@ import SwiftUI
 struct DaylistApp: App {
     @State private var environment = AppEnvironment()
 
+    init() {
+        FontRegistrar.registerAll()
+    }
+
     var body: some Scene {
         WindowGroup {
             RootView()
