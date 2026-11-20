@@ -35,7 +35,8 @@ Read `docs/ARCHITECTURE.md` before changing code. These rules apply to every cha
 - Xcode keeps the project open: write files with the Xcode MCP (`XcodeWrite`), not by editing on disk,
   or Xcode may save an old editor buffer over the change.
 - Build and run all tests through the Xcode MCP before handing work over.
-- Work is pushed to `main` one stage per commit, only after Attique approves it in Xcode.
+- Git rules are in `docs/GIT_WORKFLOW.md`: one branch per stage, Conventional Commits, PR squash-merged so `main`
+  gets one commit per stage (`M1 Stage N: …`). Never commit to `main` directly; push only after Attique approves it in Xcode.
 
 ## Sources of truth
 - Figma: https://www.figma.com/design/4CoExzZhXhhZzOQngZJDk4

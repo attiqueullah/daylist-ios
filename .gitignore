@@ -15,3 +15,10 @@ build/
 
 # macOS
 .DS_Store
+
+# Secrets and tooling
+.env
+*.xcconfig.local
+Secrets.xcconfig
+*.xcresult
+fastlane/report.xml
