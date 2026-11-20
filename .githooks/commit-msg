@@ -1,0 +1,8 @@
+#!/bin/sh
+# Enforces Conventional Commits on the first line. Enable: git config core.hooksPath .githooks
+first=$(head -n1 "$1")
+case "$first" in Merge\ *|Revert\ *|fixup!\ *|squash!\ *) exit 0 ;; esac
+# Stage squash commits on main look like "M1 Stage 2: Design system".
+echo "$first" | grep -Eq '^(feat|fix|refactor|test|docs|style|perf|build|chore)(\([a-z0-9-]+\))?!?: .{1,72}$|^M[0-9]+ Stage [0-9.]+: .{1,60}$' && exit 0
+echo "Commit message must look like 'feat(home): add tile grid' or 'M1 Stage 2: Design system'." >&2
+exit 1
